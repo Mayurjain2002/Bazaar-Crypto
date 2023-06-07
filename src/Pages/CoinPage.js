@@ -42,7 +42,7 @@ const CoinPage = () => {
       flexDirection: "column",
       alignItems: "center",
       marginTop: 25,
-      borderRight: "2px solid grey",
+      borderRight: "2px solid #37B9F1",
     },
     heading: {
       fontWeight: "bold",
@@ -78,7 +78,7 @@ const CoinPage = () => {
 
   const classes = useStyles();
 
-  if (!coin) return <LinearProgress style={{ backgroundColor: "gold" }} />;
+  if (!coin) return <LinearProgress style={{ backgroundColor: "#37B9F1" }} />;
 
   return (
     <div className={classes.container}>
