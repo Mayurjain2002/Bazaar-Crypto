@@ -17,7 +17,11 @@ import { CryptoState } from "../CryptoContext";
 const useStyles = makeStyles((theme) => ({
   title: {
     flex: 1,
+<<<<<<< HEAD
     color: "gold",
+=======
+    color: "#37B9F1",
+>>>>>>> db10244660858a9cf4e4eec1a0b91362fd3d53b2
     fontFamily: "Montserrat",
     fontWeight: "bold",
     cursor: "pointer",
@@ -49,7 +53,11 @@ function Header() {
               variant="h6"
               className={classes.title}
             >
+<<<<<<< HEAD
               Crypto Hunter
+=======
+              Crypto Bazaar
+>>>>>>> db10244660858a9cf4e4eec1a0b91362fd3d53b2
             </Typography>
             {/* <Button color="inherit">Login</Button> */}
             <Select

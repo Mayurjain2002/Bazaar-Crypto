@@ -44,7 +44,11 @@ export default function CoinsTable() {
     },
     pagination: {
       "& .MuiPaginationItem-root": {
+<<<<<<< HEAD
         color: "gold",
+=======
+        color: "#37B9F1",
+>>>>>>> db10244660858a9cf4e4eec1a0b91362fd3d53b2
       },
     },
   });
@@ -100,10 +104,17 @@ export default function CoinsTable() {
         />
         <TableContainer component={Paper}>
           {loading ? (
+<<<<<<< HEAD
             <LinearProgress style={{ backgroundColor: "gold" }} />
           ) : (
             <Table aria-label="simple table">
               <TableHead style={{ backgroundColor: "#EEBC1D" }}>
+=======
+            <LinearProgress style={{ backgroundColor: "#37B9F1" }} />
+          ) : (
+            <Table aria-label="simple table">
+              <TableHead style={{ backgroundColor: "#37B9F1" }}>
+>>>>>>> db10244660858a9cf4e4eec1a0b91362fd3d53b2
                 <TableRow>
                   {["Coin", "Price", "24h Change", "Market Cap"].map((head) => (
                     <TableCell
